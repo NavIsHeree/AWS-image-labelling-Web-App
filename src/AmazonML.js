@@ -1,5 +1,5 @@
 import { Buffer } from "buffer";
-
+import { RekognitionClient } from "@aws-sdk/client-rekognition";
 export async function analyzeImageML(type, imageData) {
   const returnData = {
     type: "warning",
